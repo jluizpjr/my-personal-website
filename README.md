@@ -75,15 +75,15 @@ my-personal-website/
 
 ## Customization
 
-#1. **Update Content**:
+1. **Update Content**:
    - Edit `src/components/` files (e.g., `Hero.jsx`, `Project1.jsx`) to add your name, bio, and project details.
    - Replace placeholder images in `src/assets/`.
 
-#3. **Styling**:
+3. **Styling**:
    - Modify CSS variables in `src/index.css` (e.g., `--white`, `--black`) to adjust the color scheme.
    - Tweak component-specific styles in `src/components/*.variable`.
 
-#3. **Add Projects**:
+3. **Add Projects**:
    - Create new components (e.g., `Project2.jsx`) and update `Projects.jsx` to include them in the `projects` array.
 
 ---
