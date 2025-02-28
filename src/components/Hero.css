@@ -1,0 +1,20 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--gray-light);
+    color: var(--black);
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    color: var(--gray-dark);
+  }
