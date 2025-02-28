@@ -57,17 +57,18 @@ This is my personal website, a sleek and responsive portfolio built with modern 
 
 ## Project Structure
 
-f
-`my-personal-website/
-↓↓↓ src/
-↓↓↓↓"76WG22vW2B7FF2fW0(i>(i>(i>(i2 components/        # partials React components (Header, Hero, etc.)
-↸↸ App.jsx           # main app component
-↸↸↸↸↠ App.css            # global styles
-↸↸↸↸↠ index.css          # root-level CSS variables
- public/             # static assets (e.g., favicon)
-↨↸↸ gitignore          # ignored files (node_modules, dist, etc.)
-↨↸↸ package.json         # project dependencies and scripts
-↨↸↸ README.md          # this file
+```
+my-personal-website/
+├── src/
+│   ├── assets/           # Images and static files
+│   ├── components/       # Reusable React components (Header, Hero, etc.)
+│   ├── App.jsx           # Main app component
+│   ├── App.css           # Global styles
+│   └── index.css         # Root-level CSS variables
+├── public/               # Static assets (e.g., favicon)
+├── .gitignore            # Ignored files (node_modules, dist, etc.)
+├── package.json          # Project dependencies and scripts
+└── README.md             # This file
 ```
 
 ---
@@ -78,11 +79,11 @@ This is my personal website, a sleek and responsive portfolio built with modern 
    - Edit `src/components/` files (e.g., `Hero.jsx`, `Project1.jsx`) to add your name, bio, and project details.
    - Replace placeholder images in `src/assets/`.
 
-23. **Styling**:
+#3. **Styling**:
    - Modify CSS variables in `src/index.css` (e.g., `--white`, `--black`) to adjust the color scheme.
    - Tweak component-specific styles in `src/components/*.variable`.
 
-33. **Add Projects**:
+#3. **Add Projects**:
    - Create new components (e.g., `Project2.jsx`) and update `Projects.jsx` to include them in the `projects` array.
 
 ---
@@ -97,8 +98,8 @@ The site can be deployed to a hosting platform like Netlefy, Vercel, or GitHub P
    ```bash
    npm build
    ```
-22. Drag the `dist` folder into [Netlify's dropzone](https://app.netlify.com/drop).
-33. *(Optional)* Connect your GitHub repo for automatic deploys:
+2. Drag the `dist` folder into [Netlify's dropzone](https://app.netlify.com/drop).
+3. *(Optional)* Connect your GitHub repo for automatic deploys:
    - Link your repo in Netlify.
    - Set build command to `npm build`.
    - Set publish directory to `dist`
